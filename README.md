@@ -8,3 +8,13 @@ input | output
 ----- | -------
 `12121` | 'Is palindrome'
 `233` | 'Not is palindrome'
+
+## numbersOfPrimes
+
+`Create a function that return the number of prime numbers given a value`
+
+input | output
+----- | -------
+`100` | `25`
+`50`  | `15`
+`20`  | `8`
