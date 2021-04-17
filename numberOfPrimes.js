@@ -9,6 +9,7 @@ const countPrimeNumbers = value => {
     for (let j = 2; j < i; j++) {
       if (i % j === 0) {
         prime = false;
+        break;
       }
     }
 
@@ -21,6 +22,6 @@ const countPrimeNumbers = value => {
 };
 
 (function () {
-  const numbers = [100, 50, 20];
+  const numbers = [100, 50, 10];
   numbers.forEach(number => console.log(countPrimeNumbers(number)));
 })();
